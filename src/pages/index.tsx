@@ -49,6 +49,7 @@ export default function Home() {
     <>
       <Head>
         <title>vivek-weds-sudarshana</title>
+        <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
         <meta name="description" content="Wedding website of vivek and sudarshana" />
         <meta property="og:url" content=" url" />
         <meta property="keywords" content="Wedding website of vivek and sudarshana" />
@@ -57,11 +58,7 @@ export default function Home() {
         <meta property="og:description" content="#savethedate #bettertogether #weddingbells" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
-        <meta
-          property="og:image"
-          itemprop="image"
-          content="https://github.com/Dey-Sumit/wedding/blob/main/public/thumbnail.jpg"
-        ></meta>
+        <meta property="og:image" content="https://github.com/Dey-Sumit/wedding/blob/main/public/thumbnail.jpg"></meta>
       </Head>
 
       <SplashScreen />
