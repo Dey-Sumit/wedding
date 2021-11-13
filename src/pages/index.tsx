@@ -69,7 +69,7 @@ export default function Home() {
 
       <SplashScreen />
       <div className="flex flex-col items-center justify-center ">
-        <div className="flex flex-col items-center justify-center w-full p-3 py-6 space-y-4  text-[#5c3182] text-xl font-medium font-serif">
+        <div className="flex flex-col items-center justify-center w-full p-3 py-6 space-y-4  text-[#5c3182] text-lg text-center font-medium font-serif">
           <p>Click here to watch the Wedding Live!</p>
           <button
             className="uppercase tracking-wider px-4 py-2 rounded-sm bg-[#5c3182] shadow-2xl  cursor-pointer sticky z-20  text-white"
