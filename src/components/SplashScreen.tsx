@@ -11,7 +11,7 @@ const SplashScreen = () => {
   return (
     mounted && (
       <motion.div
-        className="fixed z-10 w-full h-screen"
+        className="fixed z-50 w-full h-screen"
         initial={{
           y: 0,
         }}

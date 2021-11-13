@@ -49,20 +49,16 @@ export default function Home() {
     <>
       <Head>
         <title>vivek-weds-sudarshana</title>
+        <meta name="description" content="Wedding website of vivek and sudarshana" />
         <meta property="og:url" content=" url" />
         <meta property="keywords" content="Wedding website of vivek and sudarshana" />
         <meta property="og:title" content="Vivek and Sudarshana is getting married! Congratulate them!" />
-        {/* <meta name="twitter:card" content="summary" /> */}
-        <meta property="og:description" content="" />
-        {/* <meta
-          property="og:image"
-          content="https://www.vivek-weds-sudarshana.space/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FsudoC.93854bce.jpg&w=1080&q=100"
-        /> */}
+        <meta property="og:description" content="Best wishes on your wonderful journey" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
         <meta
           property="og:image"
-          content="https://opengraph.githubassets.com/4b88ca5445a73ff054793796de0ce80ac798428192b0574ab5c5917fd1f33adf/RohitDhatrak/Bookscape"
+          content="https://raw.githubusercontent.com/Dey-Sumit/wedding/main/public/Reception.jpg"
         ></meta>
       </Head>
 
@@ -77,7 +73,7 @@ export default function Home() {
             Watch now
           </button>
         </div>
-        <div className="w-[100vw] h-[72vh] sm:h-[100vh] sm:mb-5 relative ">
+        <div className="w-[100vw] h-[60vh] sm:h-[100vh] mb-5 relative ">
           <Image
             src={blusky}
             alt=""
@@ -89,7 +85,7 @@ export default function Home() {
             loading="eager"
           />
         </div>
-        <div className="w-[100vw] h-[72vh] sm:h-[100vh] sm:mb-5 relative nextImage">
+        <div className="w-[100vw] h-[60vh] sm:h-[100vh] mb-4 relative nextImage">
           <Image
             src={sudo}
             alt=""
@@ -101,7 +97,7 @@ export default function Home() {
             loading="eager"
           />
         </div>
-        <div className="w-[100vw] h-[72vh] sm:h-[120vh] sm:mb-5 relative nextImage">
+        <div className="w-[100vw] h-[72vh] sm:h-[120vh] mb-5 relative nextImage">
           <Image
             src={Reception}
             alt=""
@@ -113,7 +109,7 @@ export default function Home() {
             loading="eager"
           />
         </div>
-        <div className="w-[100vw] h-[72vh] sm:h-[100vh]  relative ">
+        <div className="w-[100vw] h-[60vh] sm:h-[100vh]  relative ">
           <Image src={dec} alt="" layout="fill" objectFit="contain" quality={100} className="shadow-lg" />
         </div>
       </div>
