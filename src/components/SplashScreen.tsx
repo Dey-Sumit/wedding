@@ -16,7 +16,7 @@ const SplashScreen = () => {
           y: 0,
         }}
         animate={{
-          y: "-150%",
+          y: "-170%",
           transition: {
             duration: 1.6,
           },

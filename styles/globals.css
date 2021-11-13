@@ -1,15 +1,23 @@
 /* if vs code shows warning , go to setting -> CSS> Lint:Unknown At Rules -> select ignore */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d2bfdd;
+}
 
 .nextImage > span {
 border: 1px solid #e2e8f0;
 }
 .btn {
-    background-color: #f133a2;
+/* letter-spacing: 10px; */
+    background-color: #5c3182;
     color: white;
     border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 0.25em;
@@ -21,7 +29,7 @@ border: 1px solid #e2e8f0;
     font-size: 1.25rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.035em;
     padding: 1em 2em;
     transform: translateY(0);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -36,13 +44,13 @@ border: 1px solid #e2e8f0;
   
   .btn:hover,
   .btn:focus {
-    background-color: #ff41b0;
+    background-color: #5c3182;
     /* transform: translateY(-1px); */
     box-shadow: 0 7px 14px rgba(50, 50, 50, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     outline:0;
   }
   .btn:focus-visible {
-      outline:2px solid #ff3aad;
+      outline:2px solid #5c3182;
       outline-offset: 5px;
     }
     
@@ -51,3 +59,12 @@ border: 1px solid #e2e8f0;
     transform: translateY(1px);
     box-shadow: 0 3px 12px -2px inset rgba(50, 50, 50, 0.25);
   } */
+
+  @media screen and (max-width: 768px) {
+    .btn {
+      font-size: 1rem;
+      padding: 1em 1.25em;
+    }
+  
+      
+  }
