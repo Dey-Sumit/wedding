@@ -52,8 +52,8 @@ export default function Home() {
         <meta name="description" content="Wedding website of vivek and sudarshana" />
         <meta property="og:url" content=" url" />
         <meta property="keywords" content="Wedding website of vivek and sudarshana" />
-        <meta property="og:title" content="Vivek and Sudarshana is getting married! Congratulate them!" />
-        <meta property="og:description" content="Best wishes on your wonderful journey" />
+        <meta property="og:title" content="Vivekanand weds Sudarshana" />
+        <meta property="og:description" content="#savethedate #bettertogether #weddingbells" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
         <meta
