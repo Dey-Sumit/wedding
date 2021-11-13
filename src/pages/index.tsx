@@ -58,7 +58,12 @@ export default function Home() {
         <meta property="og:description" content="#savethedate #bettertogether #weddingbells" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
-        <meta property="og:image" content="https://github.com/Dey-Sumit/wedding/blob/main/public/thumbnail.jpg"></meta>
+        {/* <meta property="og:image" content="https://github.com/Dey-Sumit/wedding/blob/main/public/thumbnail.jpg"></meta> */}
+        {/* <meta property="og:image" content="https://github.com/Dey-Sumit/wedding/blob/main/public/60kb.jpg"></meta> */}
+        <meta
+          property="og:image"
+          content="https://raw.githubusercontent.com/Dey-Sumit/wedding/main/public/60kb.jpg"
+        ></meta>
       </Head>
 
       <SplashScreen />
