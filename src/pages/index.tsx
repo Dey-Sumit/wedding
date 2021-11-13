@@ -60,7 +60,7 @@ export default function Home() {
         <meta
           property="og:image"
           itemprop="image"
-          content="https://raw.githubusercontent.com/Dey-Sumit/wedding/main/public/Reception.jpg"
+          content="https://github.com/Dey-Sumit/wedding/blob/main/public/thumbnail.jpg"
         ></meta>
       </Head>
 
