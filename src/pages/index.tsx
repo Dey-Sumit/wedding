@@ -53,11 +53,13 @@ export default function Home() {
         <meta property="og:url" content=" url" />
         <meta property="keywords" content="Wedding website of vivek and sudarshana" />
         <meta property="og:title" content="Vivekanand weds Sudarshana" />
+        <meta property="og:url" content="www.vivek-weds-sudarshana.space" />
         <meta property="og:description" content="#savethedate #bettertogether #weddingbells" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="600" />
         <meta
           property="og:image"
+          itemprop="image"
           content="https://raw.githubusercontent.com/Dey-Sumit/wedding/main/public/Reception.jpg"
         ></meta>
       </Head>
